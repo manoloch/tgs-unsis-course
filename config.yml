@@ -1,0 +1,18 @@
+title: TGS UNSIS
+description: >-
+  Este material forma parte del curso de Teoría General de Sistemas de la
+  Universidad de la Sierra Sur (UNSIS) en Oaxaca, México.   
+template:
+  repo: tgs-unsis-template
+  name: tgs-unsis
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
